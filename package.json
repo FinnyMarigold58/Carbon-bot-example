@@ -1,0 +1,19 @@
+{
+  "name": "carbon-bot",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@biomejs/biome": "^1.9.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@buape/carbon": "^0.4.2",
+    "env-cmd": "^10.1.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  }
+}
