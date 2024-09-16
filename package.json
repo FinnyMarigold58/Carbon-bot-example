@@ -10,8 +10,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@buape/carbon": "^0.4.2",
-    "env-cmd": "^10.1.0"
+    "@buape/carbon": "^0.4.2"
   },
   "scripts": {
     "start": "bun run src/index.ts"
