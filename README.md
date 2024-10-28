@@ -1,5 +1,13 @@
 # carbon-bot
 
+⚠️ **This template no longer works as of carbon v0.6.0**
+
+**it is recommended to use create-carbon to create your carbon projects via**
+```bash
+bunx create-carbon@latest
+```
+<br>
+<br>
 To install dependencies:
 
 ```bash
@@ -11,5 +19,3 @@ To run:
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.1.27. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
